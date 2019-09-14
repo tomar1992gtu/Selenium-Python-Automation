@@ -17,9 +17,10 @@ import sys
 sys.path.append('./Config/')
 sys.path.append('./DataProviders/')
 sys.path.append('./Documents/')
-sys.path.append('./PageObjects/')
+sys.path.append('./PageObjects/loginPage')
 sys.path.append('./Reporter/')
 sys.path.append('./Utility/')
+sys.path.append('/vagrant/test_pytest/mypkg')
 
 import Config
 import DataProviders
